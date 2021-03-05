@@ -1,0 +1,286 @@
+@charset 'utf-8';
+/*
+
+
+*/
+
+.content{
+    width:88.75em;
+    margin: 0 auto;
+}
+
+
+
+.title{
+    width: 40em;
+    height: 5.5em;
+    margin: 0 auto;
+}
+/*logo*/
+.title i{
+    display: inline-block;
+    float: left;
+    margin-left: 1.5em;
+    margin-top: 1.75em;
+    width:6.09em ;
+    height: 2em;
+    background: url("../img/logo2.png") 0 0 no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+/* 菜单导航 */
+.title div{
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 5.5rem;
+    height: 5.5em;
+    margin-left: 1em;
+    vertical-align: middle;
+}
+.title div:hover{
+    border-bottom: 0.0625em solid dodgerblue;
+    cursor: pointer;
+}
+/* 右侧下载按钮 */
+.btn{
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    width: 8em;
+    height:2.75em;
+    margin-top: 1.375em;
+    text-align: center;
+    line-height: 2.75em;
+    border: 0.0625em solid dodgerblue;
+    color:dodgerblue;
+    vertical-align: middle;
+    font-weight:bold ;
+}
+.btn:hover{
+    background-color:dodgerblue ;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*********** 头部海报  ***************/
+#poster{
+    width:100%;
+    height: 40em;
+    overflow: hidden;
+    /*text-overflow:ellipsis;*/
+    /*white-space: nowrap;*/
+}
+#poster-left{
+    box-sizing: border-box;
+    float: left;
+    width:49%;
+    height: 38.3125em;
+    padding: 6em;
+}
+#poster-left #ico{
+    display: block;
+    width:21.6875em ;
+    height: 4em;
+    background: url("../img/logo2.png") 0 0 no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+.link{
+    font-weight: normal;
+    font-size:0.7em;
+    color: #202340;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.bold{
+    color: #202340;
+    font-weight: bold;
+    font-size:4em ;
+    margin: 0.35em 0;
+}
+
+.bottom{
+    font-size:3em ;
+}
+#down{
+    width: 8em;
+    height:2.75em;
+    text-align: center;
+    line-height: 2.75em;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+#poster-right{
+    float: right;
+    display: inline-block;
+    width:49%;
+    height: 38.3125em;
+    background: url("../img/background.svg") -2.1875em -2.25em no-repeat;
+}
+#poster-right div{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 3.125em;
+    background: url("../img/poster.svg") 3em 3em no-repeat;
+}
+
+/************ 优势 **************/
+
+ul{
+    list-style: none;
+}
+.advantage-bg{
+    height: 28.125em;
+    background-color: #2b1141;
+}
+.advantage{
+    width:88.75em;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+.advantage h1{
+    color:#FF298A;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1.25em;
+}
+
+.box{
+    box-sizing: border-box;
+    display: flex;
+    padding:2rem;
+    height: 28.125em;
+    color: white;
+}
+
+.box .warp{
+    display: inline-block;
+    flex:1;
+    width:28.605%;
+    height: 28.125em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.i{
+    display: block;
+    background-size: cover;
+    vertical-align: middle;
+    width:2em;
+    height:2em;
+    margin-bottom: 1em;
+}
+.first{
+    background: url("../img/icon-2.svg") 0 0 no-repeat;
+}
+.two{
+    background: url("../img/icon-1.svg") 0 0 no-repeat;
+}
+.three{
+    background: url("../img/icon-3.svg") 0 0 no-repeat;
+}
+.box div{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.box div p{
+    display: block;
+    vertical-align:top;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+/*****************************/
+.function .box .warp{
+    color:#2b1141;
+}
+.function   h1{
+    color:#2b1141;
+}
+.for{
+    background: url("../img/icon-4.svg") 0 0 no-repeat;
+}
+.five{
+    background: url("../img/icon-5.svg") 0 0 no-repeat;
+}
+.six{
+    background: url("../img/icon-6.svg") 0 0 no-repeat;
+}
+
+
+/************* 底部信息栏  ***************/
+
+
+.bottom-div{
+    height: 18em;
+    background-color: #20123A;
+    color: white;
+}
+
+.bottom-box{
+    width:88.75em;
+    height: 18em;
+    margin: 0 auto;
+    padding-top: 3em;
+
+}
+.bottom-box li{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    text-align: center;
+
+
+}
+.bottom-box li p{
+    font-size: 0.85em;
+    margin: 1em;
+}
+.bottom-title{
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+/***************************/
+.line-div{
+    height: 15em;
+    background-color: #20123A;
+    color: white;
+}
+.line{
+    width:88.75em;
+    height: 0.625em;
+    border-bottom: 0.0625em solid #666;
+    margin: 0 auto;
+}
+.msg{
+    box-sizing: border-box;
+    width:88.75em;
+    padding:0  2em;
+    margin: 2em auto;
+}
+.msg div{
+    height: 1em;
+}
+.msg p{
+    margin: 0.7em;
+    font-size: 0.5em;
+}
+
+.msg p span {
+    margin-right: 2em;
+}

@@ -1,0 +1,262 @@
+.menu{
+    width:100%;
+    height: 2em;
+    margin-top:1.5em;
+}
+.menu div{
+    float: right;
+    width: 2em;
+    height: 2em;
+    margin-right:1.5em;
+    background: url("../img/msg.svg") 0 0 no-repeat;
+}
+.menu i{
+    display: inline-block;
+    margin-left: 1.5em;
+    width:6.09em ;
+    height: 2em;
+    background: url("../img/logo2.png") 0 0 no-repeat;
+    background-size: cover;
+}
+
+
+
+.title{
+    display: none;
+    width:100%;
+    box-sizing: border-box;
+    padding:0 1.5em;
+}
+.title div{
+    width:100%;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0.5em 0;
+    border-bottom:0.0625em solid #cdcdd4;
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    box-sizing: border-box;
+    width: 8em;
+    height:2.75em;
+    margin: 2.75em auto;
+    text-align: center;
+    line-height: 2.75em;
+    border: 0.0625em solid dodgerblue;
+    color:dodgerblue;
+    vertical-align: middle;
+    font-weight:bold ;
+}
+.btn:hover{
+    background-color:dodgerblue ;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/*********** 头部海报  ***************/
+#poster{
+    width:100%;
+    height: 30.4375em;
+    margin-bottom: 1em;
+}
+#poster-left{
+    box-sizing: border-box;
+    width:100%;
+    height:  30.4375em;
+    padding: 6em;
+}
+#poster-left #ico{
+    display: block;
+    margin: 0 auto;
+    width:21.6875em ;
+    height: 4em;
+    background: url("../img/logo2.png") 0 0 no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+.link{
+    text-align: center;
+    font-weight: normal;
+    font-size:0.7em;
+    color: #202340;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.bold{
+    text-align: center;
+    color: #202340;
+    font-weight: bold;
+    font-size:1.5em ;
+    margin: 0.35em 0;
+}
+
+#down{
+    margin: 0 auto;
+    width: 8em;
+    height:2.75em;
+    text-align: center;
+    line-height: 2.75em;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+/************ 优势 **************/
+
+ul{
+    width: 100%;
+    list-style: none;
+}
+.advantage-bg{
+    width: 100%;
+    /*height: 28.125em;*/
+    background-color: #2b1141;
+}
+.advantage{
+    width:100%;
+
+}
+.advantage h1{
+    color:#FF298A;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.box{
+    box-sizing: border-box;
+    padding:2rem;
+    color: white;
+}
+
+.box .warp{
+    text-align: center;
+    height: 7.125em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.i{
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    vertical-align: middle;
+    width:2em;
+    height:2em;
+
+}
+.first{
+    background: url("../img/icon-2.svg") 0 0 no-repeat;
+}
+.two{
+    background: url("../img/icon-1.svg") 0 0 no-repeat;
+}
+.three{
+    background: url("../img/icon-3.svg") 0 0 no-repeat;
+}
+.box div{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.box div p{
+    display: block;
+    vertical-align:top;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+/*************************************/
+
+.function .box .warp{
+    color:#2b1141;
+}
+.function   h1{
+    color:#2b1141;
+}
+.for{
+    background: url("../img/icon-4.svg") 0 0 no-repeat;
+}
+.five{
+    background: url("../img/icon-5.svg") 0 0 no-repeat;
+}
+.six{
+    background: url("../img/icon-6.svg") 0 0 no-repeat;
+}
+
+
+
+
+/************* 底部信息栏  ***************/
+
+
+.bottom-div{
+    height: 18em;
+    background-color: #20123A;
+    color: white;
+}
+
+.bottom-box{
+    width:88.75em;
+    height: 18em;
+    margin: 0 auto;
+    padding-top: 3em;
+
+}
+.bottom-box li{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    text-align: center;
+
+
+}
+.bottom-box li p{
+    font-size: 0.85em;
+    margin: 1em;
+}
+.bottom-title{
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+/***************************/
+.line-div{
+    height: 15em;
+    background-color: #20123A;
+    color: white;
+}
+.line{
+    width:100%;
+    height: 0.625em;
+    border-bottom: 0.0625em solid #666;
+    margin: 0 auto;
+}
+.msg{
+    box-sizing: border-box;
+    width:100%;
+    padding:0  2em;
+    margin: 2em auto;
+}
+.msg div{
+    height: 1em;
+}
+.msg p{
+    margin: 0.7em;
+    font-size: 0.5em;
+}
+
+.msg p span {
+    margin-right: 2em;
+}

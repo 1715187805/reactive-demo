@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!--<script src="./js/css3-mediaqueries.js"></script>-->
+    <title>自适应网页</title>
+
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./css/pc.css">
+    <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 767px)" href="./css/pid.css">
+    <link rel="stylesheet" media="screen and (max-width: 479px)" href="./css/phone.css">
+    <style>
+        *{padding: 0;margin: 0;}
+        body {
+            font: normal 100% Helvetica, Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<!--菜单按钮，以及logo-->
+<div class="menu">
+    <i></i>
+    <div></div>
+</div>
+
+<!--菜单导航-->
+<div class="title">
+    <p class="btn">下载 Firefox</p>
+    <!--logo-->
+    <i></i>
+    <div>浏览器</div>
+    <div>关于</div>
+    <div>火狐商店</div>
+</div>
+
+<div class="content">
+    <!--海报-->
+    <div id="poster">
+        <div id="poster-left">
+            <div id="ico"></div>
+            <div id="msg">
+                <p class="bold">快 , 只为更好。</p>
+                <p  class="bold bottom">Fast for good .</p>
+                <div id="down">立即下载</div>
+                <p class="link">Firefox 隐私声明</p>
+                <p class="link">更多系统和语言下载</p>
+                <p class="link">太平洋下载 腾讯软件中心</p>
+            </div>
+        </div>
+        <div id="poster-right">
+            <div></div>
+        </div>
+    </div>
+
+</div>
+
+
+<ul class="center">
+    <li  class="advantage-bg">
+        <div class="advantage">
+
+            <h1>真正的隐私浏览</h1>
+
+            <div class="box">
+
+                <div class="warp">
+                    <i class="i first"></i>
+                    <div>隐私浏览</div>
+                    <p>
+                        Firefox 会在您上网时拦截追踪器，也能在浏览结束后自动清除浏览记录。
+                    </p>
+                </div>
+                <div  class="warp">
+
+                    <i class="i two"></i>
+                    <div>跟踪保护</div>
+                    <p>
+                        某些广告藏有会跟踪您网络足迹的跟踪器。我们知道这很过分。所以我们威力强大的工具要把这些跟踪器拦截在千里之外。
+                    </p>
+                </div>
+                <div  class="warp">
+                    <i class="i three"></i>
+                    <div>更快的页面加载</div>
+                    <p>
+                        拦截那些拖慢上网速度的脚本后，页面载入速度快了44%。百利而无一害。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </li>
+    <li>
+
+        <div class="advantage function">
+
+            <h1>自定义功能</h1>
+
+            <div class="box">
+
+                <div class="warp">
+                    <i class="i for"></i>
+                    <div>扩展</div>
+                    <p>
+                        用 LastPass、Evernote 等数以千计的扩展，定制您的专属 Firefox。
+                    </p>
+                </div>
+                <div  class="warp">
+
+                    <i class="i five"></i>
+                    <div>主题</div>
+                    <p>
+                        让 Firefox 有您的风格！到我们的主题分类里选择您喜欢的主题，或者自己设计一套。
+                    </p>
+                </div>
+                <div  class="warp">
+                    <i class="i six"></i>
+                    <div>工具栏</div>
+                    <p>
+                        用您的方式调整 Firefox。可以把各种功能拖入或拽出工具栏，方便使用。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </li>
+</ul>
+
+<div class="bottom-div">
+    <ul class="bottom-box">
+        <li>
+            <div class="bottom-title">公司</div>
+            <p>关于</p>
+            <p>联系</p>
+            <p>招纳</p>
+            <p>博客</p>
+
+        </li>
+        <li>
+            <div class="bottom-title">浏览器</div>
+            <p>桌面版</p>
+            <p>移动端</p>
+            <p>企业版</p>
+        </li>
+        <li>
+            <div class="bottom-title">开发者</div>
+            <p>Web文档</p>
+            <p>工具</p>
+
+        </li>
+        <li>
+            <div class="bottom-title">产品帮助</div>
+            <p>用户支持</p>
+            <p>提交Bug</p>
+        </li>
+
+    </ul>
+</div>
+
+<div class="line-div">
+    <div class="line"></div>
+    <div class="msg">
+        <p>Copyright © 2011–2021 Mozilla Firefox Ltd.</p>
+        <p>北京谋智火狐信息技术有限公司 版权所有.</p>
+        <p>上述内容中的某些部分系 mozilla.org 志愿者个人版权所有（©1998–2021）。内容可按知识共享许可协议使用。</p>
+        <div></div>
+        <p>京ICP备11011334号-7</p>
+        <p>京公网安备11010102001807号</p>
+        <p>
+            <span>隐私权</span>
+            <span>Cookie</span>
+            <span>法律</span>
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    let w,h;
+    let title= document.getElementsByClassName('title')[0];
+    let menu= document.getElementsByClassName('menu')[0];
+    let poster=document.getElementById('poster');
+    let advantage=document.getElementsByClassName('advantage');
+    let content = document.getElementsByClassName('content')[0];
+    let bottombox=document.getElementsByClassName('bottom-box')[0];
+    let line =document.getElementsByClassName('line')[0] ;
+    let msg = document.getElementsByClassName('msg')[0]
+    window.onload=()=>{
+        w=window.innerWidth;
+        h=window.innerHeight;
+        let rem=(w/16).toString()+'em';
+
+        if (w<=1400){
+            advantage[0].style.width=rem;
+            advantage[1].style.width=rem;
+            line.style.width=rem;
+            msg.style.width=rem;
+            bottombox.style.width=rem;
+            content.style.width=rem;
+        }
+
+    }
+    window.onresize=()=>{
+        w=window.innerWidth;
+        h=window.innerHeight;
+
+        poster.style.width=(w/16).toString()+'em';
+
+        if (w>=1400){
+            title.style.width='87.em';
+
+        }else{
+            let rem=(w/16).toString()+'em';
+            advantage[0].style.width=rem;
+            advantage[1].style.width=rem;
+            bottombox.style.width=rem;
+            title.style.width=rem;
+            content.style.width=rem;
+            line.style.width=rem;
+            msg.style.width=rem;
+        }
+
+    }
+
+
+    menu.onclick=()=>{
+        if (title.style.display === 'none' || title.style.display === ''){
+            title.style.display='block';
+        } else{
+            title.style.display='none';
+        }
+
+    }
+</script>
+</body>
+</html>
